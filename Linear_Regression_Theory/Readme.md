@@ -3,6 +3,8 @@
 
 ## 线性方程
 $y = mx + b$ 
+- 通过MSE调整m和b
+
 ### MSE均方误差：
 
 - 均方误差：预测值和真实值的偏差
@@ -14,7 +16,7 @@ $y = mx + b$
 - 线性方程y=mx+b，不同的系数m 和 b ,对真实数据点有不用的MSE
 - 对MSE中的系数m,b分别求导，找到MSE下降最快的方向，即MSE下降最快，数值最小的方向，从而误差最小。
 
-<img src="m_b_gradient.png" alt="mse_gradient_descent" width=60% >
+<img src="./m_b_gradient.png" alt="mse_gradient_descent" width=60% >
 
 
 ```python
@@ -74,7 +76,7 @@ def run():
     num_iterations = 10  # 迭代次数，每一次梯度下降的调整次数
     print("Start linear regression：y={m}x+{b}, MSE={mse}".format(m=initial_m, b=initial_b, mse=MSE_LinearReg(initial_m,initial_b,dataset)))
     m,b = GradientDescent_LinearReg_MSE(initial_m,initial_b,dataset,learning_rate, num_iterations)
-    print("End linear regression：y={m}x+{b}, MSE={mse}".format(m=initial_m, b=initial_b, mse=MSE_LinearReg(m,b,dataset)))
+    print("End linear regression：y={m}x+{b}, MSE={mse}".format(m=m, b=b, mse=MSE_LinearReg(m,b,dataset)))
 run()
 ```
 
@@ -89,5 +91,5 @@ run()
 ![png](output_3_2.png)
 
 
-    End linear regression：y=0x+0, MSE=112.65585181499746
+    End linear regression：y=1.4774173755483797x+0.02963934787473239, MSE=112.65585181499746
     
