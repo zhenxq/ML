@@ -1,7 +1,6 @@
-
- # Linear regression  && Multiple Linear Regression
+# Linear regression  && Multiple Linear Regression
  
- ## Target
+## Target
 1. Linear regression：Use linear regression to make prediction on life expectancy from [body mass index (BMI)](https://en.wikipedia.org/wiki/Body_mass_index) from birth.
 2. Multiple Linear Regression：Using the Boston house-prices dataset. The dataset consists of 13 features of 506 houses and their median value in $1000's. Need to fit a model on the 13 features to predict on the value of houses.
 
