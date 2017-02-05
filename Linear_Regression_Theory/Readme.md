@@ -7,7 +7,7 @@ $y = mx + b$
 
 - 均方误差：预测值和真实值的偏差
 
-<img src="./MSE.png" alt="MSE公式" width="30%" height="25%" align="left">
+<img src="./MSE.png" alt="MSE公式" width="30%" height="25%" >
 
 ### Gradient Descent 梯度下降：
 
