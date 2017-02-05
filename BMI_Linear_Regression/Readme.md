@@ -1,7 +1,7 @@
 
- # Linear regression
+# Linear regression
  
- ## Target
+## Target
 Use linear regression to make prediction on life expectancy from [body mass index (BMI)](https://en.wikipedia.org/wiki/Body_mass_index) from birth. 
 
 ## Data

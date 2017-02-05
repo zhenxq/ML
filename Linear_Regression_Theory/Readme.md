@@ -14,7 +14,7 @@ $y = mx + b$
 - 线性方程y=mx+b，不同的系数m 和 b ,对真实数据点有不用的MSE
 - 对MSE中的系数m,b分别求导，找到MSE下降最快的方向，即MSE下降最快，数值最小的方向，从而误差最小。
 
-<img src="m_b_gradient.png" alt="mse_gradient_descent" width=60% align="left">
+<img src="m_b_gradient.png" alt="mse_gradient_descent" width=60% >
 
 
 ```python
